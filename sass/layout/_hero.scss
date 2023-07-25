@@ -53,9 +53,38 @@
 
 // tablet
 
-@media screen and (min-width: 768px:) {
-    
+@media screen and (min-width: 768px) {
+    .hero {
+      background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)); 
+    }
 }
+
+@media (min-device-pixel-ratio: 2) and (min-width: 768px), 
+(min-resolution: 192dpi) and (min-width: 768px), 
+(min-resolution: 2dppx) and (min-width: 768px) {    
+    .hero__section {
+      background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    }
+}
+
+// desktop
+
+@media screen and (min-width: 1200px) {
+  .hero {
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)); 
+    height: 600px;
+  }
+
+  .hero__title {
+font-weight: 900;
+font-size: 44px;
+line-height: 60px;
+letter-spacing: 2.64px;
+text-transform: uppercase;
+  }
+}
+
+
 
 
 
