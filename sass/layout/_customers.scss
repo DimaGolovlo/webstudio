@@ -1,0 +1,29 @@
+.customers-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.customers-link-item {
+    flex-basis: calc((100% - 2 * 30px) / 2);
+}
+
+.customers-icon-link {
+
+}
+
+.customers-icon {
+
+}
+
+.customers-icon-link:hover,
+.customers-icon-link:focus {
+    fill: #2196f3;
+}
+
+// desktop
+
+@media screen and (min-width: ) {
+    c
+}
