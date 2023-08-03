@@ -1,0 +1,128 @@
+.footer {
+    background-color: #2f3032;
+    text-align: center;
+}
+
+.footer-box {
+}
+.footer-logo {
+}
+
+.footer-contact-list {
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+
+.footer-contact-item {
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+}
+
+.footer-contact-item:first-child {
+    color: #ffffff;
+}
+
+.footer-contact-item:not(:first-child) {
+    margin-top: 10px;
+    color: #ffffff;
+}
+
+.footer-social-icons {
+}
+.footer-join-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+.social-icons-list {
+    display: inline-flex;
+    margin-bottom: 60px;
+}
+.footer-join-item {
+}
+.social-icon-link {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+.social-icon {
+
+}
+.footer-submit {
+}
+.submit-form {
+    display: flex;
+
+}
+.subsmit-input {
+    width: 100%;
+    display: block;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    background-color: #2f3032;
+    color: #ffffff;
+    font-size: 18px;
+    margin-right: 12px;
+    margin-bottom: 20px;
+}
+.footer-button {
+    width: 200px;
+    height: 50px;
+    background: #2196f3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border: none;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 30px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 0.06px;
+    cursor: pointer;
+}
+
+// tablet
+
+@media screen and (min-width: 768px) {
+    .footer-tablet {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-around;
+    }
+}
+
+// desktop
+
+@media screen and (min-width:1200px) {
+    .footer {
+        text-align: unset;
+    }
+
+    .footer-thumb {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+    }
+
+    .footer-contacts {
+        margin-right: 70px;
+    }
+
+    .footer-form{
+        
+    }
+
+    .footer-input{
+
+    }
+
+    .footer-contact-list {
+        margin-bottom: 0;
+    }
+}
