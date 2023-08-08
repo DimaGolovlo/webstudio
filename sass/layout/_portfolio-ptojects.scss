@@ -31,7 +31,7 @@
     transition: transform 250ms ease-in;
 }
 
-.project-list-item:hover, .text__overlay {
+.project-list-item:hover .text__overlay {
     transform: translateY(0);
     opacity: 1;
 }
