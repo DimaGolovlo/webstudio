@@ -19,7 +19,6 @@
   letter-spacing: 1.56px;
   text-transform: uppercase;
   padding-top: 118px;
-  max-width: 360px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -42,59 +41,56 @@
   padding: 10px 24px;
 }
 
-@media (min-device-pixel-ratio: 2) and (max-width: 768px), 
-(min-resolution: 192dpi) and (max-width: 768px), 
-(min-resolution: 2dppx) and (max-width: 768px) {
-    .hero__section {
-        background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-        url(../img/hero/hero-mob@2x.jpg);  
-    }
+@media (min-device-pixel-ratio: 2) and (max-width: 768px),
+  (min-resolution: 192dpi) and (max-width: 768px),
+  (min-resolution: 2dppx) and (max-width: 768px) {
+  .hero__section {
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+      url(../img/hero/hero-mob@2x.jpg);
+  }
 }
 
 // tablet
 
 @media screen and (min-width: 768px) {
-    .hero__section {
-      background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), 
+  .hero__section {
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
       url(../img/hero/hero-tab.jpg);
-    }
+  }
 }
 
-@media (min-device-pixel-ratio: 2) and (min-width: 768px), 
-(min-resolution: 192dpi) and (min-width: 768px), 
-(min-resolution: 2dppx) and (min-width: 768px) {    
-    .hero__section {
-      background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+@media (min-device-pixel-ratio: 2) and (min-width: 768px),
+  (min-resolution: 192dpi) and (min-width: 768px),
+  (min-resolution: 2dppx) and (min-width: 768px) {
+  .hero__section {
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
       url(../img/hero/hero-tab@2x.jpg);
-}
+  }
 }
 // desktop
 
 @media screen and (min-width: 1200px) {
   .hero__section {
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-    url(../img/hero/hero-desk.jpg); 
+      url(../img/hero/hero-desk.jpg);
     height: 600px;
   }
 
   .hero__title {
-font-weight: 900;
-font-size: 44px;
-line-height: 60px;
-letter-spacing: 2.64px;
-text-transform: uppercase;
+    padding-top: 200px;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    letter-spacing: 2.64px;
+    text-transform: uppercase;
   }
 }
 
-@media (min-device-pixel-ratio: 2) and (min-width: 1200px), 
-(min-resolution: 192dpi) and (min-width: 1200px), 
-(min-resolution: 2dppx) and (min-width: 1200px) {    
-    .hero__section {
-      background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+@media (min-device-pixel-ratio: 2) and (min-width: 1200px),
+  (min-resolution: 192dpi) and (min-width: 1200px),
+  (min-resolution: 2dppx) and (min-width: 1200px) {
+  .hero__section {
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
       url(../img/hero/hero-desk@2x.jpg);
+  }
 }
-}
-
-
-
-

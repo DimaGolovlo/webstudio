@@ -61,52 +61,15 @@ a:focus {
   }
 }
 
-.advantages__box {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding-top: 25px;
-  padding-bottom: 25px;
-  background: #f5f4fa;
-  border: radius 4px;
-  margin-bottom: 30px;
+.section {
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
-.advantages__title {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #212121;
-  margin-bottom: 18px;
-  text-align: center;
-}
-
-.advantages__text {
-  font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0, 3em;
-  color: #757575;
-}
-
-.advantages__list__item:not(:last-child) {
-  margin-bottom: 30px;
-}
-
-@media screen and (min-width: 768px) {
-  .advantages__list {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 30px;
-  }
-  .advantages__list__item {
-    flex-basis: calc((100% - 60px) / 2);
-  }
-}
 @media screen and (min-width: 1200px) {
-  .advantages__list__item {
-    flex-basis: calc((100% - 120px) / 4);
+  .section {
+    padding-top: 94px;
+    padding-bottom: 94px;
   }
 }
 .header {
@@ -212,7 +175,6 @@ a:focus {
   letter-spacing: 1.56px;
   text-transform: uppercase;
   padding-top: 118px;
-  max-width: 360px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -254,6 +216,7 @@ a:focus {
     height: 600px;
   }
   .hero__title {
+    padding-top: 200px;
     font-weight: 900;
     font-size: 44px;
     line-height: 60px;
@@ -264,6 +227,96 @@ a:focus {
 @media (min-device-pixel-ratio: 2) and (min-width: 1200px), (-webkit-min-device-pixel-ratio: 2) and (min-width: 1200px), (min-resolution: 192dpi) and (min-width: 1200px), (min-resolution: 2dppx) and (min-width: 1200px) {
   .hero__section {
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/hero/hero-desk@2x.jpg);
+  }
+}
+.advantages__box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  background: #f5f4fa;
+  border: radius 4px;
+  margin-bottom: 30px;
+}
+
+.advantages__title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+  margin-bottom: 18px;
+  text-align: center;
+}
+
+.advantages__text {
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0, 3em;
+  color: #757575;
+}
+
+.advantages__list__item:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .advantages__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  .advantages__list__item {
+    flex-basis: calc((100% - 60px) / 2);
+  }
+}
+@media screen and (min-width: 1200px) {
+  .advantages__list__item {
+    flex-basis: calc((100% - 120px) / 4);
+  }
+}
+.task__section {
+  display: none;
+}
+
+@media screen and (min-width: 1200px) {
+  .task__section {
+    display: block;
+  }
+  .task__title {
+    color: #212121;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 1.08px;
+    margin-bottom: 50px;
+  }
+  .task__list {
+    display: flex;
+  }
+  .task__list__item:not(:last-child) {
+    margin-right: 30px;
+  }
+  .task__thumb {
+    position: relative;
+  }
+  .task-text {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 70px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+    background-color: rgba(47, 48, 58, 0.8);
   }
 }
 .team-section {
@@ -301,6 +354,15 @@ a:focus {
   background: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgb(0, 0, 0);
   border-radius: 0px 0px 4px 4px;
+}
+
+.team-list-item h4 {
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  margin-bottom: 10px;
 }
 
 @media screen and (min-width: 767px) {
@@ -425,11 +487,6 @@ a:focus {
     margin-bottom: 0;
   }
 }
-@media screen and (min-width: 768px) {
-  .mobile-menu {
-    display: none;
-  }
-}
 .project-list-item:not(:last-child) {
   margin-bottom: 30px;
 }
@@ -511,5 +568,10 @@ a:focus {
 @media screen and (min-width: 1200px) {
   .project-list-item {
     flex-basis: calc((100% - 90px) / 3);
+  }
+}
+@media screen and (min-width: 768px) {
+  .mobile-menu {
+    display: none;
   }
 }/*# sourceMappingURL=main.css.map */
