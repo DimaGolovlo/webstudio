@@ -320,16 +320,18 @@ a:focus {
   }
 }
 .team-section {
+  padding-top: 94px;
+  height: 768px;
   background-color: #f5f4fa;
 }
 
 .team-subtitle {
+  font-weight: 700;
   font-size: 36px;
   line-height: 42px;
   text-align: center;
-  letter-spacing: 0.84px;
+  letter-spacing: 0.03em;
   color: #2196F3;
-  margin: 0 auto;
   margin-bottom: 50px;
 }
 
